@@ -40,7 +40,9 @@ Inference using OAK-D-Lite Camera
 
 # Hardware Specifications
 
-## 4K Camera                                                                                               
+## 4K Camera          
+
+4K RGB Camera : The RGB camera placed at the center can capture very high-resolution 4k footage. Typically, this camera is used for visual perception.
 
 - 4208x3120 - RGB Auto-Focus:
 
@@ -62,6 +64,8 @@ Inference using OAK-D-Lite Camera
 
 
 ## Stereo Pair
+
+Stereo pair : This is a system of two cameras (the word “stereo” means two) used for depth perception.
 
 300,000 depth points up to 10 meters:
 
@@ -87,6 +91,8 @@ Inference using OAK-D-Lite Camera
 
 
 ## Vision Processor
+
+Intel® Myriad™ X Visual Processing Unit (VPU) : This is the “brain” of the OAKs. It is a powerful processor capable of running modern neural networks for visual perception, and simultaneously creating a depth map from the stereo pair of images in real time.
 
 20 Computer Vision Processors:
 
